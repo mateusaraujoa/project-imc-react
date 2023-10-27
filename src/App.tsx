@@ -4,9 +4,27 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Calculadora de IMC</h1>
       <div className="card">
-        
+        <div>
+          <label>
+            Peso: 
+            <div className='cardInput'>
+            <input type='text' value='Insira aqui o seu peso'></input>
+            </div>
+          </label>
+          <br></br>
+          <br></br>
+          <label>
+            Altura: 
+            <div className='cardInput'>
+            <input type='text' value='Insira aqui a sua altura'></input>
+            </div>
+          </label>
+          <br></br>
+          <br></br>
+          <button type="submit">Calcular</button>
+        </div>       
       </div>
       
     </>
