@@ -13,16 +13,12 @@ function App() {
             <input type='text' value='Insira aqui o seu peso'></input>
             </div>
           </label>
-          <br></br>
-          <br></br>
           <label>
             Altura: 
             <div className='cardInput'>
             <input type='text' value='Insira aqui a sua altura'></input>
             </div>
           </label>
-          <br></br>
-          <br></br>
           <button type="submit">Calcular</button>
         </div>       
       </div>

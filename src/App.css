@@ -4,13 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
-.card {
-  margin-left: 50px;
-}
+
 
 .cardInput {
-  display: inline-block;
-  margin-left: 10px;
+margin: 07px auto;
 }
 
 .read-the-docs {
